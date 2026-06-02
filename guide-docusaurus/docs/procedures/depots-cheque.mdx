@@ -1,0 +1,54 @@
+---
+sidebar_position: 1
+title: 1. Dépôts par chèque
+---
+
+import { Checklist, Alerte } from '@site/src/components/Checklist'
+
+# 1.0 Dépôts par chèque
+
+## 1.1 Inscrire dans le livre de dépôt
+
+Pour chaque chèque reçu, inscrire dans le cahier :
+
+| # | Information | Note |
+|---|-------------|------|
+| 1.1.1 | Date du dépôt | Si inconnue, rajouter par la suite |
+| 1.1.2 | Nom du client | |
+| 1.1.3 | No. de facture | |
+| 1.1.4 | Montant de la facture | |
+| 1.1.5 | Plusieurs factures sur le même chèque | Inscrire le **total du chèque** |
+| 1.1.6 | Grand total du dépôt | Calculé dans Excel |
+| 1.1.7 | Encaissé | Carré non coché = pas encore encaissé |
+
+## 1.2 Remplir la fiche Excel
+
+<Alerte type="info">Dossier Dépôt sur le bureau → cliquer sur « MODÈLE »</Alerte>
+
+1. Inscrire le montant des chèques
+2. S'il y a de l'argent **cash** : inscrire le nombre de billets de 10$, 20$, 50$ reçus
+3. Imprimer **2 copies**
+4. Brocher une copie dans le livre de dépôt
+5. L'autre copie → envoyer à la banque
+6. Enregistrer sous : numéro séquentiel + date du dépôt
+
+## 1.3 Assembler l'enveloppe
+
+- Joindre le papier Excel aux chèques
+- Mettre dans une enveloppe pour la banque
+
+---
+
+## Checklist — Dépôt par chèque
+
+<Checklist id="depot-cheque" items={[
+  "Livre de dépôt rempli (date, client, no. facture, montant)",
+  "Fichier Excel MODÈLE complété",
+  "2 copies imprimées",
+  "Copie brochée dans le livre de dépôt",
+  "Enveloppe préparée pour la banque",
+  "Fichier Excel enregistré (no. séquentiel + date)",
+  "Chèques joints à l'enveloppe",
+]} />
+
+<Alerte type="warning">Ne pas oublier de cocher « Encaissé » dans le livre de dépôt une fois le dépôt confirmé à la banque.</Alerte>
